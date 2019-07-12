@@ -9,9 +9,18 @@ public class FizzBuzzTest {
         int num=1;
         FizzBuzz fizzBuzz = new FizzBuzz();
         //When
-        String convert = fizzBuzz.convert(1);
+        String convert = fizzBuzz.convert(num);
         //Then
         Assertions.assertEquals("1",convert);
     }
-
+    @Test
+    public void return_2_when_input_2(){
+        //Given
+        int num=2;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //When
+        String convert = fizzBuzz.convert(num);
+        //Then
+        Assertions.assertEquals("2",convert);
+    }
 }
