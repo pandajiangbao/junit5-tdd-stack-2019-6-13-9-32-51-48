@@ -93,4 +93,14 @@ public class FizzBuzzTest {
         //Then
         Assertions.assertEquals("FizzBuzz",convert);
     }
+    @Test
+    public void return_FizzBuzz_when_input_21(){
+        //Given
+        int num=21;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //When
+        String convert = fizzBuzz.convert(num);
+        //Then
+        Assertions.assertEquals("FizzWhizz",convert);
+    }
 }
