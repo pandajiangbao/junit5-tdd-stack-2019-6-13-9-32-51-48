@@ -11,7 +11,7 @@ public class FizzBuzz {
         }
         if (num%7==0) {
             string+="Whizz";
-        };
+        }
         if(!(num%3==0||num%5==0||num%7==0)) return String.valueOf(num);
         return string;
     }
